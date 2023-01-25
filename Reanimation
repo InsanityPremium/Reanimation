@@ -44,7 +44,7 @@ local Global = getgenv and getgenv() or _G
 		{"14456185",CFrame.Angles(0,0,0)},
 	}
 	
-
+	
 	
 	do -- Settings
 		Global.Fling = Character.Humanoid.RigType == Enum.HumanoidRigType.R15 and 'LowerTorso' or Global.Reanimation == "PermaDeath" and 'HumanoidRootPart' or 'Right Arm'
